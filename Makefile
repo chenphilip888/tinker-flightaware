@@ -23,7 +23,7 @@ piaware:
 	cd ${DIR}/piaware_builder/package-stretch; \
 	sudo dpkg-buildpackage -b --no-sign
 	cd ${DIR}/piaware_builder; \
-	sudo dpkg -i piaware_4.0~bpo9+1_armhf.deb
+	sudo dpkg -i piaware_5.0~bpo9+1_armhf.deb
 
 dump1090:
 	cd ${DIR}; \
