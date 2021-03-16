@@ -34,5 +34,5 @@ dump1090:
 	cd ${DIR}/dump1090-fa/package-stretch; \
 	sudo dpkg-buildpackage -b --no-sign
 	cd ${DIR}/dump1090-fa; \
-	sudo dpkg -i dump1090-fa_4.0~bpo9+1_armhf.deb
+	sudo dpkg -i dump1090-fa_5.0~bpo9+1_armhf.deb
 
